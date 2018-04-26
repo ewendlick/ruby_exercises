@@ -11,6 +11,11 @@ Accepts a single string from the command line. Prints "IS" or "ISN'T" if it is o
 
 Example usage: ruby palindrome.rb abcdcba
 
+## pascal.rb
+Accepts a single integer value from the command line. Prints all rows until the row specified by the passed value.
+
+Example usage: ruby pascal 10
+
 ## steps.rb (incomplete)
 Accepts 3 arguments; min_step, max_step, and total_length. Determines the number of combinations of steps you can take before reaching the length.
 
