@@ -1,11 +1,9 @@
 rows = ARGV[0].to_i
 
 def pascalRow(array)
-  i = 0
   built_array = [1]
-  while i < array.length - 1 do
+  (array.length-1).times do |i|
     built_array += [array[i] + array[i + 1]]
-    i += 1
   end
   built_array += [1]
 end
