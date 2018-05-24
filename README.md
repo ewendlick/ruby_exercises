@@ -6,6 +6,15 @@ Accepts any number of strings from the command line. Ignores proper grammar and 
 
 Example usage: ruby anagram.rb jeremyirons jeremysiron
 
+## fib.rb
+Accepts a number from the command line, and prints the location of that value as it appears in the Fibonacci series. Performed with recursion.
+
+Example usage: ruby fib.rb 5
+
+## fibiter.rb
+Accepts a number from the command line, and prints the location of that value as it appears in the Fibonacci series. Performed iteratively.
+
+Example usage: ruby fib.rb 5
 ## palindrome.rb
 Accepts a single string from the command line. Prints "IS" or "ISN'T" if it is or isn't a palindrome.
 
@@ -16,7 +25,7 @@ Accepts a single integer value from the command line. Prints all rows until the 
 
 Example usage: ruby pascal 10
 
-## steps.rb (incomplete)
+## steps.rb
 Accepts 3 arguments; min_step, max_step, and total_length. Determines the number of combinations of steps you can take before reaching the length.
 
 Example usage: ruby steps.rb 1 3 20
